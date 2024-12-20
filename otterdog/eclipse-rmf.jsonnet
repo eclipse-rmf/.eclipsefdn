@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-rmf') {
+orgs.newOrg('modeling.mdt.rmf', 'eclipse-rmf') {
   settings+: {
     web_commit_signoff_required: false,
     workflows+: {
